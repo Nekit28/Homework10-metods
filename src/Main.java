@@ -48,7 +48,7 @@ public class Main {
         }
     }
     public static void task3() {
-        System.out.println("Задача 3");
+        System.out.println("Задача3");
         int deliveryDistance = sum();
         if (sum() <= 20) {
             System.out.println("Потребуется дней: 1");
