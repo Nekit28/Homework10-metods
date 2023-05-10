@@ -10,7 +10,7 @@ public class Main {
     }
     public static void calculationYear (int year ) {
 
-        if ((year % 4 == 0) || (year % 400 == 0) && (year % 100 != 0)) {
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
             System.out.println(year + " год високосный");
         } else {
             System.out.println(year + " год не високосный");
@@ -37,7 +37,7 @@ public class Main {
     }
     public static void task1() {
         System.out.println("Задача 1");
-        int year = 1980;
+        int year = 1984;
         calculationYear(year);
     }
     public static void task2() {
